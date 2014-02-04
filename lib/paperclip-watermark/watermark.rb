@@ -62,7 +62,7 @@ module Paperclip
       end
 
       if watermark_path
-        command = "composite -geometry  +178+15 -quality 92"
+        command = "composite -geometry  +178+15 -quality 100 -compress Lossless"
         params = %W[#{watermark_path} #{tofile(dst)}]
         params << tofile(dst)
         begin
