@@ -18,7 +18,7 @@ Gem::Specification.new do |gem|
   gem.require_paths = ["lib"]
   gem.add_dependency "rake"
   gem.add_dependency "rails"
-  gem.add_dependency "minitest"
-  gem.add_dependency "minitest-reporters"
+  gem.add_development_dependency "minitest"
+  gem.add_development_dependency "minitest-reporters"
   gem.add_dependency "paperclip", ">= 2.3.8"
 end
